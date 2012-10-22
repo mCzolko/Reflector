@@ -57,7 +57,7 @@ class Reflector
 		@return int
 	###
 	getParamsCount: (func) ->
-		@getParamNames.length
+		@getParamNames().length
 
 
 	###*
