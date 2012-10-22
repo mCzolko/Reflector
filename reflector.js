@@ -78,7 +78,7 @@ Reflector = (function() {
 
 
   Reflector.prototype.getParamsCount = function(func) {
-    return this.getParamNames.length;
+    return this.getParamNames().length;
   };
 
   /**
